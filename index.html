@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crypter</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container-fluid p-0 border-bottom">
+        <!-- navbar -->
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">crypter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="stick mx-4 rounded"></div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ms-3" href="#">How it work</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <div class="bell-box mx-4">
+                    <div class="bell-icon bg-success rounded-circle ms-3"></div>
+                    <i class="fa-regular fa-bell bell "></i>
+                </div>
+                <button class="nav-btn btn btn-outline-secondary rounded-pill" type="submit">Upload</button>
+                <button class="nav-btn btn btn-outline-secondary rounded-pill ms-3" type="submit">Connect Wallet</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        </div>
+    </div> 
+    <div class="container-fluid p-0">
+        <!-- banner -->
+        <div class="container">
+        <div class="banner w-100 h-auto d-flex flex-column align-items-center">
+            <p class="banner-text text-center">CREATE, EXPLORE, & COLLECT DIGITAL ART NFTS.</p>
+            <p class="banner-title text-center">The new creative economy.</p>
+            <button class="banner-btn nav-btn btn btn-outline-secondary rounded-pill mt-2" type="submit">Start your search</button>
+        </div>
+        </div>
+        <!-- section "the creator network" -->
+        <div class="container">
+        <section class="the_creator_network w-100 h-auto d-flex flex-wrap justify-content-between">
+            <div class="img_box">
+            <img class="section-img" src="./images/section_img/Home/Desktop/Auction/Desktop/Auction img/01.png" alt="">
+            </div>
+            <div class="text_box">
+            <p class="text_box_title">the creator network®</p>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                <div class="profile_circle rounded-circle"><img src="./images/Crypter + (1)/Home/Desktop/Auction/Desktop/user.png" alt=""></div>
+                <div class="ms-2">
+                    <p class="profile_text m-0">Creator</p>
+                    <p class="profile_title">Enrico Cole</p>
+                </div>
+                </div>
+                <div class="d-flex me-4">
+                <div class="profile_circle rounded-circle"><img src="./images/Crypter + (2)/Home/Desktop/Auction/Desktop/user.png" alt=""></div>
+                <div class="ms-2">
+                    <p class="profile_text m-0">Instant price</p>
+                    <p class="profile_title">3.5 ETH</p>
+                </div>
+                </div>
+            </div>
+            <div class="text_box_item w-100 h-auto d-flex flex-column align-items-center border mt-4 p-4">
+                <p class="text_1 text-center m-0">Current Bid</p>
+                <p class="text_2 text-center m-0">1.00 ETH</p>
+                <p class="text_3 text-center">$3,618.36</p>
+                <p class="text_1 text-center m-2">Auction ending in</p>
+                <div class="numbers d-flex justify-content-between">
+                <div><span>19</span><br><p class="text-center">Hrs</p></div>
+                <div><span>24</span><br><p class="text-center">mins</p></div>
+                <div><span>19</span><br><p class="text-center">secs</p></div>
+                </div>
+            </div>
+            <button class="banner-btn w-100 nav-btn btn btn-outline-secondary rounded-pill mt-5" type="submit">Place a bid</button>
+            <button class="banner-btn w-100 nav-btn btn btn-outline-secondary rounded-pill mt-2" type="submit">View item</button>
+            <div class="d-flex mt-5 arrow_holder">
+                <div class="arrow rounded-circle d-flex justify-content-center align-items-center">
+                     <i class="fa-solid fa-arrow-left arrows"></i>
+                </div>
+                <div class="arrow rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-arrow-right arrows"></i>
+                </div>
+            </div>
+            </div>
+        </section>
+        </div>
+    </div>
+
+    <div class="container-fluid h-auto ">
+        <div class="hot_bid_main">
+            <div class="Hb_top d-flex flex-row justify-content-between">
+                    <p class="title">Hot bid</p>
+                    <div class="arrow d-flex justify-content-end align-items-center">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                    </div>
+            </div>
+
+            <div class="Hb_buttom">
+                <div class="card ">
+                    <img src="./images/hot_bid img1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="Amazing d-flex justify-content-between">
+                            <p>Amazing digital art</p>
+                            <span class="badge">2.45 ETH</span>
+                        </div>
+                        <div class="Amazing d-flex justify-content-between">
+                            <div class="stock_left">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                            </div>
+                            <span class="stock">3 in stock</span>
+                        </div>
+                        <hr class="hr">
+                        <div class="card_bootom_bid w-100 h-auto d-flex justify-content-between align-items-center">
+                            <div class="highest_bid">
+                                <img src="./images/renamed.png" alt="">
+                                <span>Highest bid</span>
+                                <strong style="color: black;">0.001 ETH</strong>
+                            </div>
+                            <div class="New_bid">New bid 🔥</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card block_mobile block_tablet">
+                    <div class="img_position w-100 h-auto position-relative">
+                        <img src="./images/hot_bid img2.png" class="card-img-top" alt="...">
+                        <div class="img2_position1 rounded-pill position-absolute bottom-0 top-5  start-50 translate-middle-x my-3">Place a bid
+                            <img src="./images/hot_bid_avatar img03.png" alt="">
+                        </div>
+                        <div class="Hb_card_purchasing">PURCHASING</div>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div class="card-body">
+                        <div class="Amazing d-flex justify-content-between">
+                            <p>Amazing digital art</p>
+                            <span class="badge">2.45 ETH</span>
+                        </div>
+                        <div class="Amazing d-flex justify-content-between">
+                            <div class="stock_left">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                            </div>
+                            <span class="stock">3 in stock</span>
+                        </div>
+                        <hr class="hr">
+                        <div class="card_bootom_bid w-100 h-auto d-flex justify-content-between align-items-center">
+                            <div class="highest_bid">
+                                <img src="./images/renamed.png" alt="">
+                                <span>Highest bid</span>
+                                <strong style="color: black;">0.001 ETH</strong>
+                            </div>
+                            <div class="New_bid">New bid 🔥</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card  block_mobile">
+                    <img src="./images/hot_bid img3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="Amazing d-flex justify-content-between">
+                            <p>Amazing digital art</p>
+                            <span class="badge">2.45 ETH</span>
+                        </div>
+                        <div class="Amazing d-flex justify-content-between">
+                            <div class="stock_left">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                            </div>
+                            <span class="stock">3 in stock</span>
+                        </div>
+                        <hr class="hr">
+                        <div class="card_bootom_bid w-100 h-auto d-flex justify-content-between align-items-center">
+                            <div class="highest_bid">
+                                <img src="./images/renamed.png" alt="">
+                                <span>Highest bid</span>
+                                <strong style="color: black;">0.001 ETH</strong>
+                            </div>
+                            <div class="New_bid">New bid 🔥</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card   block_mobile">
+                    <img src="./images/hot_bid img4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="Amazing d-flex justify-content-between">
+                            <p>Amazing digital art</p>
+                            <span class="badge">2.45 ETH</span>
+                        </div>
+                        <div class="Amazing d-flex justify-content-between">
+                            <div class="stock_left">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                            </div>
+                            <span class="stock">3 in stock</span>
+                        </div>
+                        <hr class="hr">
+                        <div class="card_bootom_bid w-100 h-auto d-flex justify-content-between align-items-center">
+                            <div class="highest_bid">
+                                <img src="./images/renamed.png" alt="">
+                                <span>Highest bid</span>
+                                <strong style="color: black;">0.001 ETH</strong>
+                            </div>
+                            <div class="New_bid">New bid 🔥</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hot collection part -->
+    <div class="Next_div ">
+        <div class="Hot_collections">
+            <div class="Hb_top d-flex flex-row justify-content-between">
+                <p class="title">Hot collections</p>
+                <div class="arrow hc_arrow d-flex justify-content-end align-items-center">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right ms-2"></i>
+                </div>
+            </div>
+
+            <div class="HC_bottom w-100 h-auto">
+                <div class="HC_card ">
+                    <img class="hot_collection_card_image" src="./images/Hot collection img1.png" alt="">
+                        <div class="hc_card_center_image d-flex justify-content-between mt-2 w-100 h-auto">
+                            <img src="./images/Hot collection img2.png" alt="">
+                            <img src="./images/Hot collection img3.png" alt="">
+                            <img src="./images/Hot collection img4.png" alt="">
+                        </div>
+                        <div class="Awesome_collection mt-3">Awesome collection</div>
+
+                        <div class="hc_card_center_bottom w-100 d-flex justify-content-between">
+                            <div class="hc_card_center_bottom_left w-auto h-100 ">
+                                <img src="./images/hot_bid_avatar img01.png" alt="">
+                                <span class="mx-1">By</span><span class="span">Kennith Olson</span>
+                            </div>
+                            <div class="hc_card_center_bottom_right">
+                                <p>28 ITEMS</p>
+                            </div>    
+                        </div>
+                </div>
+                    <div class="HC_card d-none d-md-block d-xl-block">
+                        <img class="hot_collection_card_image" src="./images/Hot collection img5.png" alt="">
+                            <div class="hc_card_center_image  d-flex justify-content-between mt-2 w-100 h-auto">
+                                <img src="./images/Hot collection img6.png" alt="">
+                                <img src="./images/Hot collection img7.png" alt="">
+                                <img src="./images/Hot collection img8.png" alt="">
+                            </div>
+                            <div class="Awesome_collection mt-3">Awesome collection</div>
+                            <div class="hc_card_center_bottom w-100 d-flex justify-content-between">
+                                <div class="hc_card_center_bottom_left w-auto h-100 ">
+                                    <img src="./images/hot_bid_avatar img01.png" alt="">
+                                    <span class="mx-1">By</span><span class="span">Willi Barton</span>
+                                </div>
+                                <div class="hc_card_center_bottom_right">
+                                    <p>28 ITEMS</p>
+                                </div>    
+                            </div>
+                    </div>
+                    <div class="HC_card d-none d-md-none d-xl-block">
+                        <img class="hot_collection_card_image" src="./images/Hot collection img9.png" alt="">
+                            <div class="hc_card_center_image  d-flex justify-content-between mt-2 w-100 h-auto">
+                                <img src="./images/Hot collection img10.png" alt="">
+                                <img src="./images/Hot collection img11.png" alt="">
+                                <img src="./images/Hot collection img12.png" alt="">
+                            </div>
+                            <div class="Awesome_collection mt-3">Awesome collection</div>
+
+                            <div class="hc_card_center_bottom w-100 d-flex justify-content-between">
+                                <div class="hc_card_center_bottom_left w-auto h-100 ">
+                                    <img src="./images/hot_bid_avatar img01.png" alt="">
+                                    <span class="mx-1">By</span><span class="span">Willi Barton</span>
+                                </div>
+                                <div class="hc_card_center_bottom_right">
+                                    <p>28 ITEMS</p>
+                                </div>    
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
